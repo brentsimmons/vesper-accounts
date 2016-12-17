@@ -1,5 +1,5 @@
 # vesper-accounts
-This was the account management website for Vesper.
+This was the account management website for Vesper, an iOS note-taking app by Q Branch.
 
 This is not a living project. It’s a historical artifact: it’s the Node.js website that ran at https://accounts.vesperapp.co/, which was taken down when Vesper syncing was turned off.
 
