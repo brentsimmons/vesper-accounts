@@ -1,0 +1,15 @@
+extends layout
+
+block content
+
+  form(method='get',action='/user',name='userLookupForm')
+
+    legend= title
+
+    .form
+        input(name='emailaddress', placeholder='Email address')
+    input(type='submit')
+
+  .footer
+    a(href='http://vesperapp.co') Vesper
+  

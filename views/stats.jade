@@ -1,0 +1,64 @@
+extends layout
+
+block content
+    .stats
+      h4 STATISTICS
+      .statsline
+      table
+        tr
+          td Accounts
+          td.num #{locals.numberOfAccounts}
+      .line
+      table
+        tr
+          td Verified
+          td.num #{locals.numberOfVerifiedAccounts}
+      .line
+      table
+        tr
+          td Percent verified
+          td.num #{locals.percentVerifiedAccounts}%
+      .line
+      table
+        tr
+          td Notes
+          td.num #{locals.numberOfNotes}
+      .line
+      table
+        tr
+          td Tags
+          td.num #{locals.numberOfTags}
+      .line
+      table
+        tr
+          td Deleted notes
+          td.num #{locals.numberOfDeletedNotes}
+      .line
+      table
+        tr
+          td Photos
+          td.num #{locals.numberOfAttachments}
+      .statsline
+    
+      br
+
+      h4 PER USER
+      .statsline
+      table
+        tr
+          td Notes
+          td.num #{locals.notesPerUser}
+      .line
+      table
+        tr
+          td Tags
+          td.num #{locals.tagsPerUser}
+      .line
+      table
+        tr
+          td Photos
+          td.num #{locals.photosPerUser}
+      .statsline
+  
+      p Updated #{locals.updateDate}
+      .statsfooter

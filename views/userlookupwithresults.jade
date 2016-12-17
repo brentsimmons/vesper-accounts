@@ -1,0 +1,26 @@
+extends layout
+
+block content
+
+  form(method='get',action='/user',name='userLookupForm')
+
+    legend= title
+
+    .form
+        input(name='emailaddress', placeholder='Email address')
+    input(type='submit')
+
+  .userinfo
+    table
+      tr
+        td Notes
+        td.num #{locals.numberOfNotes}
+      tr
+        td Tags
+        td.num #{locals.numberOfTags}
+      tr
+        td Deleted notes
+        td.num #{locals.numberOfDeletedNotes}
+      tr
+        td Attachments
+        td.num #{locals.numberOfAttachments}
