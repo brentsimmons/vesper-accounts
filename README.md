@@ -7,4 +7,4 @@ I don’t claim that this represents the right way or wrong way to write a Node 
 
 The one and only change from the actual shipping version was a line that imported a web font. Otherwise it’s entirely as it was on the server. (Which was a Node server running on Azure.)
 
-More notes will be forthcoming.
+For more notes, see [Vesper Open Source #1: the Boring Part](http://inessential.com/2016/12/18/vesper_open_source_1_the_boring_part).
